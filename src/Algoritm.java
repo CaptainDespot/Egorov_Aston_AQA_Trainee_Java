@@ -12,7 +12,7 @@ public class Algoritm {
         System.out.println("Элементы массива, кратные 3:");
         for (String number: numbers) {
             int num = Integer.parseInt(number);
-            if (num % 3 == 0 & num != 0) {
+            if (num % 3 == 0) {
                 System.out.println(num);
             }
         }
